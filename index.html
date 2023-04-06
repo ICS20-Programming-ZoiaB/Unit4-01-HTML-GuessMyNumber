@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+ <head>
+
+   <!-- Metadata -->
+   <meta charset="utf-8">
+   <meta name="description" content="Guess My Number Webpage">
+   <meta name="keywords" content="immaculata, ics2o">
+   <meta name="author" content="ZoiaB">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Favicon -->
+   <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+   <link rel="manifest" href="./favicon/site.webmanifest">
+
+   <!-- Stylesheet -->
+   <link rel="stylesheet" href="./css/style.css">
+   
+   <!-- Title -->
+   <title>Guess My Number, with JavaScript</title>
+ </head>
+ <body>
+
+   <!-- Link to JavaScript file -->
+   <script src="./js/script.js"></script>
+   <h1>Guess My Number!</h1>
+
+   <!-- Text -->
+       <p>This page will allow you to guess my number. Type your guess in the input box below.</p>
+
+    <!-- Form for user input -->
+    <form action="javascript:guessSent()">
+      <label for="guess">Input any number between the numbers 1 and 6:</label>
+      <input type="number" step="1" id="user-guess" min="1" max="6" placeholder="Guess"><br><br>
+      <input type="submit" value="Check">
+    </form>
+
+    <!-- Div for results -->
+    <div id="results"></div>
+
+   <!-- Image -->
+   <img src="./images/number.gif" alt="numbers">
+ </body>
+</html>
