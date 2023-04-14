@@ -1,7 +1,7 @@
-// Copyright (c) 2022 ZoiaB All rights reserved
+// Copyright (c) 2023 ZoiaB All rights reserved
 //
 // Created by: ZoiaB
-// Created on: April 25, 2022
+// Created on: April 2023
 // This file contains the JS functions for index.html
 
 function guessSent() {
