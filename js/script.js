@@ -17,6 +17,6 @@ function guessSent() {
 
   //if/then statement: if correctNumber is not equal to guessedNumber
 if (correctNumber != guessedNumber) {
-   document.getElementById("results").innerHTML = "Your guess not correct! My number was " + correctNumber + ".";
+   document.getElementById("results").innerHTML = "Your guess was not correct! My number was " + correctNumber + ".";
  }
 }

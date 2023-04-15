@@ -19,7 +19,7 @@ h1 {
 
 p {
   background-color: #6e5353;
-  color: rgb(199, 204, 203);
+  color: rgb(199 204 203);
 }
 
 form {
@@ -28,12 +28,12 @@ form {
 
 h3 {
   text-align: center;
-  color: rgb(199, 204, 203);
+  color: rgb(199 204 203);
 }
 
 div {
   background-color: #bc8f8f;
-  color: rgb(199, 204, 203);
+  color: rgb(199 204 203);
   text-align: center;
   padding: 10px;
 }
